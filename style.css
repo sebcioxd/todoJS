@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  min-width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h1 {
+  margin-bottom: 3vh;
+}
+
+#inputField {
+  padding: 15px;
+  margin-right: 10px;
+  min-width: 300px;
+  border: 0.2px solid blue;
+  outline: none;
+  transition: 0.1s ease-in-out;
+  border-radius: 5px;
+}
+#inputField:hover {
+  outline: 0.1px solid blue;
+  
+}
+#inputField:focus {
+  outline: 1px solid blue;
+  margin-right: 50px;
+  transform: scale(1.1);
+  color: blue;
+}
+
+#addToDo {
+  margin-top: 5px;
+  font-size: 20px;
+  padding: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  transition: 0.1s ease-in-out;
+  /* height: 50px;
+  width: 55px; */
+  border: none;
+  border-radius: 5px;
+}
+#addToDo:hover {
+  transform: scale(1.1);
+  background-color: rgb(71, 71, 197);
+}
+
+.to-dos {
+  margin-top: 10px;
+  cursor: pointer;
+}
+ol li {
+  margin-top: 2vh;
+}
